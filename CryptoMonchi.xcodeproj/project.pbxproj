@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2EBC58427DB2C2F001F9C8F /* CryptoMonchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC58327DB2C2F001F9C8F /* CryptoMonchiApp.swift */; };
+		E2EBC58627DB2C2F001F9C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC58527DB2C2F001F9C8F /* ContentView.swift */; };
+		E2EBC58B27DB2C30001F9C8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EBC58A27DB2C30001F9C8F /* Preview Assets.xcassets */; };
+		E2EBC59227DB3FC3001F9C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EBC59127DB3FC3001F9C8F /* Assets.xcassets */; };
+		E2EBC59527DB42C1001F9C8F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC59427DB42C1001F9C8F /* Color.swift */; };
+		E2EBC59B27DB58CA001F9C8F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC59A27DB58CA001F9C8F /* HomeView.swift */; };
+		E2EBC59F27DB5C21001F9C8F /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC59E27DB5C21001F9C8F /* CircleButtonView.swift */; };
+		E2EBC5A127DBAC66001F9C8F /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5A027DBAC66001F9C8F /* CircleButtonAnimationView.swift */; };
+		E2EBC5A427DBCB43001F9C8F /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5A327DBCB43001F9C8F /* CoinModel.swift */; };
+		E2EBC5A827DCAFFD001F9C8F /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5A727DCAFFD001F9C8F /* PreviewProvider.swift */; };
+		E2EBC5AA27DCCD6B001F9C8F /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5A927DCCD6B001F9C8F /* CoinRowView.swift */; };
+		E2EBC5AC27DCEB09001F9C8F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5AB27DCEB09001F9C8F /* Double.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2EBC58027DB2C2F001F9C8F /* CryptoMonchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMonchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EBC58327DB2C2F001F9C8F /* CryptoMonchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMonchiApp.swift; sourceTree = "<group>"; };
+		E2EBC58527DB2C2F001F9C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2EBC58A27DB2C30001F9C8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2EBC59127DB3FC3001F9C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2EBC59427DB42C1001F9C8F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E2EBC59A27DB58CA001F9C8F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E2EBC59E27DB5C21001F9C8F /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		E2EBC5A027DBAC66001F9C8F /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		E2EBC5A327DBCB43001F9C8F /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		E2EBC5A727DCAFFD001F9C8F /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		E2EBC5A927DCCD6B001F9C8F /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		E2EBC5AB27DCEB09001F9C8F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2EBC57D27DB2C2F001F9C8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2EBC57727DB2C2F001F9C8F = {
+			isa = PBXGroup;
+			children = (
+				E2EBC58227DB2C2F001F9C8F /* CryptoMonchi */,
+				E2EBC58127DB2C2F001F9C8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2EBC58127DB2C2F001F9C8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2EBC58027DB2C2F001F9C8F /* CryptoMonchi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2EBC58227DB2C2F001F9C8F /* CryptoMonchi */ = {
+			isa = PBXGroup;
+			children = (
+				E2EBC58327DB2C2F001F9C8F /* CryptoMonchiApp.swift */,
+				E2EBC59327DB4237001F9C8F /* Extensions */,
+				E2EBC5A227DBCAF2001F9C8F /* Models */,
+				E2EBC59627DB5809001F9C8F /* Core */,
+				E2EBC58527DB2C2F001F9C8F /* ContentView.swift */,
+				E2EBC59127DB3FC3001F9C8F /* Assets.xcassets */,
+				E2EBC58927DB2C30001F9C8F /* Preview Content */,
+			);
+			path = CryptoMonchi;
+			sourceTree = "<group>";
+		};
+		E2EBC58927DB2C30001F9C8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2EBC58A27DB2C30001F9C8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2EBC59327DB4237001F9C8F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2EBC59427DB42C1001F9C8F /* Color.swift */,
+				E2EBC5A727DCAFFD001F9C8F /* PreviewProvider.swift */,
+				E2EBC5AB27DCEB09001F9C8F /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2EBC59627DB5809001F9C8F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E2EBC59C27DB5BC7001F9C8F /* Components */,
+				E2EBC59727DB583B001F9C8F /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E2EBC59727DB583B001F9C8F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E2EBC59927DB5852001F9C8F /* ViewModels */,
+				E2EBC59827DB584B001F9C8F /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E2EBC59827DB584B001F9C8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2EBC59A27DB58CA001F9C8F /* HomeView.swift */,
+				E2EBC5A927DCCD6B001F9C8F /* CoinRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E2EBC59927DB5852001F9C8F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E2EBC59C27DB5BC7001F9C8F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E2EBC59D27DB5BFF001F9C8F /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E2EBC59D27DB5BFF001F9C8F /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				E2EBC59E27DB5C21001F9C8F /* CircleButtonView.swift */,
+				E2EBC5A027DBAC66001F9C8F /* CircleButtonAnimationView.swift */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		E2EBC5A227DBCAF2001F9C8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2EBC5A327DBCB43001F9C8F /* CoinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2EBC57F27DB2C2F001F9C8F /* CryptoMonchi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2EBC58E27DB2C30001F9C8F /* Build configuration list for PBXNativeTarget "CryptoMonchi" */;
+			buildPhases = (
+				E2EBC57C27DB2C2F001F9C8F /* Sources */,
+				E2EBC57D27DB2C2F001F9C8F /* Frameworks */,
+				E2EBC57E27DB2C2F001F9C8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoMonchi;
+			productName = CryptoMonchi;
+			productReference = E2EBC58027DB2C2F001F9C8F /* CryptoMonchi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2EBC57827DB2C2F001F9C8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E2EBC57F27DB2C2F001F9C8F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E2EBC57B27DB2C2F001F9C8F /* Build configuration list for PBXProject "CryptoMonchi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2EBC57727DB2C2F001F9C8F;
+			productRefGroup = E2EBC58127DB2C2F001F9C8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2EBC57F27DB2C2F001F9C8F /* CryptoMonchi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2EBC57E27DB2C2F001F9C8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EBC59227DB3FC3001F9C8F /* Assets.xcassets in Resources */,
+				E2EBC58B27DB2C30001F9C8F /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2EBC57C27DB2C2F001F9C8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EBC5AA27DCCD6B001F9C8F /* CoinRowView.swift in Sources */,
+				E2EBC58627DB2C2F001F9C8F /* ContentView.swift in Sources */,
+				E2EBC59B27DB58CA001F9C8F /* HomeView.swift in Sources */,
+				E2EBC58427DB2C2F001F9C8F /* CryptoMonchiApp.swift in Sources */,
+				E2EBC59F27DB5C21001F9C8F /* CircleButtonView.swift in Sources */,
+				E2EBC59527DB42C1001F9C8F /* Color.swift in Sources */,
+				E2EBC5A127DBAC66001F9C8F /* CircleButtonAnimationView.swift in Sources */,
+				E2EBC5A827DCAFFD001F9C8F /* PreviewProvider.swift in Sources */,
+				E2EBC5AC27DCEB09001F9C8F /* Double.swift in Sources */,
+				E2EBC5A427DBCB43001F9C8F /* CoinModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2EBC58C27DB2C30001F9C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2EBC58D27DB2C30001F9C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2EBC58F27DB2C30001F9C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoMonchi/Preview Content\"";
+				DEVELOPMENT_TEAM = K9R8CFUV4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TRKizaki.CryptoMonchi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2EBC59027DB2C30001F9C8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoMonchi/Preview Content\"";
+				DEVELOPMENT_TEAM = K9R8CFUV4T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TRKizaki.CryptoMonchi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2EBC57B27DB2C2F001F9C8F /* Build configuration list for PBXProject "CryptoMonchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EBC58C27DB2C30001F9C8F /* Debug */,
+				E2EBC58D27DB2C30001F9C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2EBC58E27DB2C30001F9C8F /* Build configuration list for PBXNativeTarget "CryptoMonchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2EBC58F27DB2C30001F9C8F /* Debug */,
+				E2EBC59027DB2C30001F9C8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2EBC57827DB2C2F001F9C8F /* Project object */;
+}
