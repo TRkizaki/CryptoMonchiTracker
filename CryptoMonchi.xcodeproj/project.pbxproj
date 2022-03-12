@@ -19,6 +19,7 @@
 		E2EBC5A827DCAFFD001F9C8F /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5A727DCAFFD001F9C8F /* PreviewProvider.swift */; };
 		E2EBC5AA27DCCD6B001F9C8F /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5A927DCCD6B001F9C8F /* CoinRowView.swift */; };
 		E2EBC5AC27DCEB09001F9C8F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5AB27DCEB09001F9C8F /* Double.swift */; };
+		E2EBC5AE27DD24CC001F9C8F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5AD27DD24CC001F9C8F /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E2EBC5A727DCAFFD001F9C8F /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		E2EBC5A927DCCD6B001F9C8F /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		E2EBC5AB27DCEB09001F9C8F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		E2EBC5AD27DD24CC001F9C8F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		E2EBC59927DB5852001F9C8F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E2EBC5AD27DD24CC001F9C8F /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2EBC5AA27DCCD6B001F9C8F /* CoinRowView.swift in Sources */,
+				E2EBC5AE27DD24CC001F9C8F /* HomeViewModel.swift in Sources */,
 				E2EBC58627DB2C2F001F9C8F /* ContentView.swift in Sources */,
 				E2EBC59B27DB58CA001F9C8F /* HomeView.swift in Sources */,
 				E2EBC58427DB2C2F001F9C8F /* CryptoMonchiApp.swift in Sources */,
