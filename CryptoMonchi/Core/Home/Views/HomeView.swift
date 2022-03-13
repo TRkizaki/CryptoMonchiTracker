@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @EnvironmentObject private var vm: HomeViewModel //new add
+    @EnvironmentObject private var vm: HomeViewModel 
     @State private var showPortfolio: Bool = false
     
     var body: some View {
@@ -21,6 +21,8 @@ struct HomeView: View {
             // content layer
             VStack {
                 homeHeader
+                HomeStatsView(showPortfolio: $showPortfolio)
+                SearchBarView(searchText: $vm.searchText)
                 
                 columnTitles
                 
