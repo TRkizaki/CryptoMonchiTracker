@@ -25,6 +25,7 @@
 		E2EBC5B727DD5580001F9C8F /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5B627DD5580001F9C8F /* CoinImageView.swift */; };
 		E2EBC5B927DD5961001F9C8F /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5B827DD5960001F9C8F /* CoinImageService.swift */; };
 		E2EBC5BB27DDD3C4001F9C8F /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5BA27DDD3C4001F9C8F /* CoinImageViewModel.swift */; };
+		E2EBC5BD27DE05F7001F9C8F /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC5BC27DE05F7001F9C8F /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		E2EBC5B627DD5580001F9C8F /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		E2EBC5B827DD5960001F9C8F /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		E2EBC5BA27DDD3C4001F9C8F /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		E2EBC5BC27DE05F7001F9C8F /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				E2EBC5B327DD42E2001F9C8F /* NetworkingManager.swift */,
+				E2EBC5BC27DE05F7001F9C8F /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				E2EBC5AA27DCCD6B001F9C8F /* CoinRowView.swift in Sources */,
 				E2EBC5B927DD5961001F9C8F /* CoinImageService.swift in Sources */,
 				E2EBC5AE27DD24CC001F9C8F /* HomeViewModel.swift in Sources */,
+				E2EBC5BD27DE05F7001F9C8F /* LocalFileManager.swift in Sources */,
 				E2EBC58627DB2C2F001F9C8F /* ContentView.swift in Sources */,
 				E2EBC59B27DB58CA001F9C8F /* HomeView.swift in Sources */,
 				E2EBC5B727DD5580001F9C8F /* CoinImageView.swift in Sources */,
