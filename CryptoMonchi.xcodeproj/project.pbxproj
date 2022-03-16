@@ -18,6 +18,7 @@
 		E27C990327DFCE2A005585C9 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E27C990127DFCE2A005585C9 /* PortfolioContainer.xcdatamodeld */; };
 		E27C990527DFD231005585C9 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C990427DFD231005585C9 /* PortfolioDataService.swift */; };
 		E27C990727E0C6BF005585C9 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C990627E0C6BF005585C9 /* HapticManager.swift */; };
+		E27C990C27E27F83005585C9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C990B27E27F83005585C9 /* DetailView.swift */; };
 		E2EBC58427DB2C2F001F9C8F /* CryptoMonchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC58327DB2C2F001F9C8F /* CryptoMonchiApp.swift */; };
 		E2EBC58627DB2C2F001F9C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC58527DB2C2F001F9C8F /* ContentView.swift */; };
 		E2EBC58B27DB2C30001F9C8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EBC58A27DB2C30001F9C8F /* Preview Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		E27C990227DFCE2A005585C9 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		E27C990427DFD231005585C9 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		E27C990627E0C6BF005585C9 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		E27C990B27E27F83005585C9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		E2EBC58027DB2C2F001F9C8F /* CryptoMonchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMonchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EBC58327DB2C2F001F9C8F /* CryptoMonchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMonchiApp.swift; sourceTree = "<group>"; };
 		E2EBC58527DB2C2F001F9C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E27C990827E27EFC005585C9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E27C990927E27F2C005585C9 /* ViewModels */,
+				E27C990A27E27F34005585C9 /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		E27C990927E27F2C005585C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E27C990A27E27F34005585C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E27C990B27E27F83005585C9 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E2EBC57727DB2C2F001F9C8F = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +170,7 @@
 			children = (
 				E2EBC59C27DB5BC7001F9C8F /* Components */,
 				E2EBC59727DB583B001F9C8F /* Home */,
+				E27C990827E27EFC005585C9 /* Detail */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -325,6 +352,7 @@
 				E2EBC58427DB2C2F001F9C8F /* CryptoMonchiApp.swift in Sources */,
 				E2EBC5C127DE2471001F9C8F /* UiApplication.swift in Sources */,
 				E2EBC59F27DB5C21001F9C8F /* CircleButtonView.swift in Sources */,
+				E27C990C27E27F83005585C9 /* DetailView.swift in Sources */,
 				E27C990727E0C6BF005585C9 /* HapticManager.swift in Sources */,
 				E2EBC5BF27DE14DC001F9C8F /* SearchBarView.swift in Sources */,
 				E2EBC59527DB42C1001F9C8F /* Color.swift in Sources */,
