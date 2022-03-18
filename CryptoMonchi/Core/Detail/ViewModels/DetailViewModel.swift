@@ -23,7 +23,7 @@ class DetailViewModel: ObservableObject {
         self.addSubscribers()
     }
     
-    private func addSubscribers() {//new
+    private func addSubscribers() {
         
         coinDetailService.$coinDetails
             .combineLatest($coin)

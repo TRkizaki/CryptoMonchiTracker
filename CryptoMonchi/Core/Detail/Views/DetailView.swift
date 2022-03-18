@@ -30,25 +30,36 @@ struct DetailView: View {
     
     private let spacing: CGFloat = 30
     
-    init(coin: CoinModel) {//update
+    init(coin: CoinModel) {
         _vm = StateObject(wrappedValue: DetailViewModel(coin: coin))
     }
 
     var body: some View {
         ScrollView {
+            VStack {
+                ChartView(coin: vm.coin)//update
+                    .padding(.vertical)
+            
+            
             VStack(spacing: 20) {
-                Text("")
-                    .frame(height: 150)
+                
                 overviewTitle
                 Divider()
-                overviewGrid//new
+                overviewGrid
                 additionalTitle
                 Divider()
-                additionalGrid//new
+                additionalGrid
             }
             .padding()
+          }
+            
         }
-        .navigationTitle(vm.coin.name)
+        .navigationTitle(vm.coin.name)//new
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                navigationBarTrailingItems //new
+            }
+        }
     }
 }
 
@@ -60,7 +71,17 @@ struct DetailView_Previews: PreviewProvider {
   }
 }
 
-extension DetailView {//new
+extension DetailView {
+    
+    private var navigationBarTrailingItems: some View {//new
+        HStack {
+        Text(vm.coin.symbol.uppercased())
+            .font(.headline)
+            .foregroundColor(Color.theme.secondaryText)
+            CoinImageView(coin: vm.coin)//topにcoinLogo表示
+                .frame(width: 25, height: 25)
+        }
+    }
     
     private var overviewTitle: some View {
         Text("Overview")
