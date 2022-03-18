@@ -25,6 +25,7 @@
 		E2DC7AD627E43427000377AD /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DC7AD527E43427000377AD /* ChartView.swift */; };
 		E2DC7AD827E44952000377AD /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DC7AD727E44952000377AD /* Date.swift */; };
 		E2DC7ADA27E46D75000377AD /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DC7AD927E46D75000377AD /* String.swift */; };
+		E2DC7ADE27E497DD000377AD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DC7ADD27E497DD000377AD /* SettingsView.swift */; };
 		E2EBC58427DB2C2F001F9C8F /* CryptoMonchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC58327DB2C2F001F9C8F /* CryptoMonchiApp.swift */; };
 		E2EBC58627DB2C2F001F9C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC58527DB2C2F001F9C8F /* ContentView.swift */; };
 		E2EBC58B27DB2C30001F9C8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EBC58A27DB2C30001F9C8F /* Preview Assets.xcassets */; };
@@ -67,6 +68,7 @@
 		E2DC7AD527E43427000377AD /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		E2DC7AD727E44952000377AD /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		E2DC7AD927E46D75000377AD /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		E2DC7ADD27E497DD000377AD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E2EBC58027DB2C2F001F9C8F /* CryptoMonchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMonchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EBC58327DB2C2F001F9C8F /* CryptoMonchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMonchiApp.swift; sourceTree = "<group>"; };
 		E2EBC58527DB2C2F001F9C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,22 @@
 			children = (
 				E27C990B27E27F83005585C9 /* DetailView.swift */,
 				E2DC7AD527E43427000377AD /* ChartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E2DC7ADB27E49736000377AD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E2DC7ADC27E4975B000377AD /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E2DC7ADC27E4975B000377AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2DC7ADD27E497DD000377AD /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +204,7 @@
 			children = (
 				E2EBC59C27DB5BC7001F9C8F /* Components */,
 				E2EBC59727DB583B001F9C8F /* Home */,
+				E2DC7ADB27E49736000377AD /* Settings */,
 				E27C990827E27EFC005585C9 /* Detail */,
 			);
 			path = Core;
@@ -391,6 +410,7 @@
 				E27C991227E3251E005585C9 /* CoinDetailDataService.swift in Sources */,
 				E27C991027E324AD005585C9 /* DetailViewModel.swift in Sources */,
 				E27C990527DFD231005585C9 /* PortfolioDataService.swift in Sources */,
+				E2DC7ADE27E497DD000377AD /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
