@@ -26,6 +26,8 @@
 		E2DC7AD827E44952000377AD /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DC7AD727E44952000377AD /* Date.swift */; };
 		E2DC7ADA27E46D75000377AD /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DC7AD927E46D75000377AD /* String.swift */; };
 		E2DC7ADE27E497DD000377AD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DC7ADD27E497DD000377AD /* SettingsView.swift */; };
+		E2DC7AE427E58CFE000377AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DC7AE327E58CFE000377AD /* LaunchScreen.storyboard */; };
+		E2DC7AE627E592B4000377AD /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DC7AE527E592B4000377AD /* LaunchView.swift */; };
 		E2EBC58427DB2C2F001F9C8F /* CryptoMonchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC58327DB2C2F001F9C8F /* CryptoMonchiApp.swift */; };
 		E2EBC58627DB2C2F001F9C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBC58527DB2C2F001F9C8F /* ContentView.swift */; };
 		E2EBC58B27DB2C30001F9C8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EBC58A27DB2C30001F9C8F /* Preview Assets.xcassets */; };
@@ -69,6 +71,8 @@
 		E2DC7AD727E44952000377AD /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		E2DC7AD927E46D75000377AD /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		E2DC7ADD27E497DD000377AD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E2DC7AE327E58CFE000377AD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2DC7AE527E592B4000377AD /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		E2EBC58027DB2C2F001F9C8F /* CryptoMonchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoMonchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EBC58327DB2C2F001F9C8F /* CryptoMonchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMonchiApp.swift; sourceTree = "<group>"; };
 		E2EBC58527DB2C2F001F9C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +150,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		E2DC7AE127E58CBE000377AD /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				E2DC7AE227E58CDF000377AD /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		E2DC7AE227E58CDF000377AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2DC7AE327E58CFE000377AD /* LaunchScreen.storyboard */,
+				E2DC7AE527E592B4000377AD /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E2EBC57727DB2C2F001F9C8F = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +223,7 @@
 		E2EBC59627DB5809001F9C8F /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E2DC7AE127E58CBE000377AD /* Launch */,
 				E2EBC59C27DB5BC7001F9C8F /* Components */,
 				E2EBC59727DB583B001F9C8F /* Home */,
 				E2DC7ADB27E49736000377AD /* Settings */,
@@ -361,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DC7AE427E58CFE000377AD /* LaunchScreen.storyboard in Resources */,
 				E2EBC59227DB3FC3001F9C8F /* Assets.xcassets in Resources */,
 				E2EBC58B27DB2C30001F9C8F /* Preview Assets.xcassets in Resources */,
 			);
@@ -389,6 +412,7 @@
 				E2EBC59B27DB58CA001F9C8F /* HomeView.swift in Sources */,
 				E2EBC5B727DD5580001F9C8F /* CoinImageView.swift in Sources */,
 				E2EBC58427DB2C2F001F9C8F /* CryptoMonchiApp.swift in Sources */,
+				E2DC7AE627E592B4000377AD /* LaunchView.swift in Sources */,
 				E2EBC5C127DE2471001F9C8F /* UiApplication.swift in Sources */,
 				E2EBC59F27DB5C21001F9C8F /* CircleButtonView.swift in Sources */,
 				E27C990C27E27F83005585C9 /* DetailView.swift in Sources */,
@@ -538,6 +562,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoMonchi/Preview Content\"";
@@ -547,6 +572,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -568,6 +594,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoMonchi/Preview Content\"";
@@ -577,6 +604,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

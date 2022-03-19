@@ -83,9 +83,9 @@ extension SettingsView {
     }
     
     private var developerSection: some View {
-        Section(header: Text("Developer")) {
+        Section(header: Text("Developer: TRkizaki")) {
             VStack(alignment: .leading) {
-                Image("logo")
+                Image("developer")
                     .resizable()
                     .frame(width: 100, height: 100)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
