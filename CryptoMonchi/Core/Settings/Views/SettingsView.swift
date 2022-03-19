@@ -18,12 +18,23 @@ struct SettingsView: View {
     
     
     var body: some View {
-        NavigationView {//new
+        NavigationView {
+            ZStack {
+                //background
+                Color.theme.background//new
+                    .ignoresSafeArea()
+            
+            //content
             List {
                 monchiSection
+                    .listRowBackground(Color.theme.background.opacity(0.5))//new
                 coinGeckoSection
+                    .listRowBackground(Color.theme.background.opacity(0.5))//new
                 developerSection
+                    .listRowBackground(Color.theme.background.opacity(0.5))//new
                 applicationSection
+                    .listRowBackground(Color.theme.background.opacity(0.5))//new 
+               }
             }
             .font(.headline)//new
             .accentColor(.blue)//new

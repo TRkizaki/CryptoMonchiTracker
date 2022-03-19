@@ -24,9 +24,10 @@ class NetworkingManager {
     
     static func download(url: URL) -> AnyPublisher<Data, Error> {
        return URLSession.shared.dataTaskPublisher(for: url)
-            .subscribe(on: DispatchQueue.global(qos: .default))
+            //.subscribe(on: DispatchQueue.global(qos: .default)) <- update
             .tryMap({ try handleURLResponse(output: $0, url: url)})//update
-            .receive(on: DispatchQueue.main)
+            //.receive(on: DispatchQueue.main) <- update
+            .retry(3)//new
             .eraseToAnyPublisher()
     }
     

@@ -45,6 +45,7 @@ class CoinImageService {//download logic
                 
                 return UIImage(data: data)
             })
+            .receive(on: DispatchQueue.main)//new 
             .sink(receiveCompletion: NetworkingManager.handleCompletion, receiveValue: { [weak self] (returnedImage) in //updated
                 guard let self = self, let downloadedImage = returnedImage else { return }
                 self.image = downloadedImage
