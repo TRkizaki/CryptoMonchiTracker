@@ -59,7 +59,7 @@ class HomeViewModel: ObservableObject {
             .map(mapGlobalMarketData)
             .sink { [weak self] (returnedStats) in
                 self?.statistics = returnedStats
-                self?.isLoading = false //new
+                self?.isLoading = false 
             }
             .store(in: &cancellables)
     

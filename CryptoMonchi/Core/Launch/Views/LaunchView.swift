@@ -22,7 +22,7 @@ struct LaunchView: View {
             Color.launch.background
                 .ignoresSafeArea()
             
-            Image("developer")
+            Image("logo")
                 .resizable()
                 .frame(width: 100, height: 100)
             
